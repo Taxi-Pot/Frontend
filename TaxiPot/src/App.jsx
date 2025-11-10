@@ -5,7 +5,6 @@ import PostsPage from './pages/PostsPage';
 import DetailPage from './pages/DetailPage';
 import WritePage from './pages/WritePage';
 import MyPage from './pages/MyPage';
-import Navigation from './components/Navigation';
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('main');
@@ -38,9 +37,6 @@ const App = () => {
       )}
       {currentPage === 'write' && <WritePage navigate={navigate} />}
       {currentPage === 'my' && <MyPage navigate={navigate} />}
-
-      {/* 하단 네비게이션 (메인 페이지 제외) */}
-      {/* {currentPage !== 'main' && <Navigation navigate={navigate} />} */}
     </div>
   );
 };
