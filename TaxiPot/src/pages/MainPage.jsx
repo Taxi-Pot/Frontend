@@ -16,7 +16,9 @@ const MainPage = ({ navigate }) => {
       </div>
 
       {/* 카카오 로그인 버튼 */}
-      <button className="w-full rounded-lg py-2 px-4 flex items-center justify-center mb-6">
+      <button 
+      onClick={() => navigate('concerts')}
+      className="w-full rounded-lg py-2 px-4 flex items-center justify-center mb-6">
         <img src="/kakao_login_large_wide.png" alt="카카오 로그인" className="h-15" />
       </button>
     </div>

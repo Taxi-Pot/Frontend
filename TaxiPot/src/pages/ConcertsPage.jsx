@@ -9,10 +9,9 @@ const ConcertsPage = ({ navigate }) => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 pb-20">
+    <div className="min-h-screen bg-gray-50 pb-20 mt-6">
       <Header 
-        title="TaxiPot!"
-        subtitle="만남 시작시 · 콘서트"
+        title={<img src="/main_logo.png" alt="TaxiPot 로고" className="h-6" />}
         showBack={false}
         showMy={true}
         onMyClick={() => navigate('my')}

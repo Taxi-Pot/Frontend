@@ -49,7 +49,7 @@ const Header = ({
           {showMy && (
             <button 
               onClick={onMyClick}
-              className="px-4 py-1 bg-gray-200 rounded text-sm hover:bg-gray-300"
+              className="text-gray-500 font-semibold text-lg bg-transparent border-none p-0"
             >
               MY
             </button>
