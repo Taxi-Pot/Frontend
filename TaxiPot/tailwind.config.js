@@ -9,7 +9,8 @@ module.exports = {
         blue1: "#B0CEEF",
         blue2: "#BAD5F3",
         blue3: "#D1E1F8",
-        blue4: "#E3ECFE"
+        blue4: "#E3ECFE",
+        buttonBlue: "#7FA9D7"
       },
 
       keyframes: {

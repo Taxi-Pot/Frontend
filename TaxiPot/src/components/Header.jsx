@@ -12,7 +12,7 @@ const Header = ({
   onMyClick
 }) => {
   return (
-    <div className="bg-white border-b sticky top-0 z-10">
+    <div className="bg-white border-b sticky top-0 z-10 mt-6">
       <div className="flex items-center justify-between p-4">
         {/* 왼쪽 영역 */}
         <div className="flex items-center gap-3">
@@ -21,7 +21,7 @@ const Header = ({
               onClick={onBackClick}
               className="hover:bg-gray-100 p-1 rounded"
             >
-              <ChevronLeft className="w-6 h-6" />
+              <ChevronLeft className="text-gray-500 w-6 h-6" />
             </button>
           )}
           
@@ -59,7 +59,7 @@ const Header = ({
             rightButton.text ? (
               <button 
                 onClick={rightButton.onClick}
-                className="text-blue-500 font-semibold hover:text-blue-600"
+                className="text-buttonBlue font-semibold hover:text-buttonBlue/80"
               >
                 {rightButton.text}
               </button>

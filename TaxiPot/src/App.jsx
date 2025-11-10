@@ -40,7 +40,7 @@ const App = () => {
       {currentPage === 'my' && <MyPage navigate={navigate} />}
 
       {/* 하단 네비게이션 (메인 페이지 제외) */}
-      {currentPage !== 'main' && <Navigation navigate={navigate} />}
+      {/* {currentPage !== 'main' && <Navigation navigate={navigate} />} */}
     </div>
   );
 };

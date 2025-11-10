@@ -9,7 +9,7 @@ const ConcertsPage = ({ navigate }) => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 pb-20 mt-6">
+    <div className="min-h-screen bg-gray-50 pb-20">
       <Header 
         title={<img src="/main_logo.png" alt="TaxiPot 로고" className="h-6" />}
         showBack={false}

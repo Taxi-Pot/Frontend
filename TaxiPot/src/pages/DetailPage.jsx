@@ -9,7 +9,7 @@ const DetailPage = ({ navigate, post }) => {
   return (
     <div className="min-h-screen bg-gray-50 pb-20">
       <Header 
-        title="역속 게시"
+        title=""
         showBack={true}
         onBackClick={() => navigate('posts')}
         rightButton={{ 
@@ -29,8 +29,8 @@ const DetailPage = ({ navigate, post }) => {
             </div>
           </div>
 
-          <h2 className="text-xl font-bold mb-4">{post.title}</h2>
-          <p className="text-gray-700 mb-6">{post.content}</p>
+          <h2 className="text-xl font-bold mb-3">{post.title}</h2>
+          <p className="text-gray-700 mb-9">{post.content}</p>
 
           <div className="space-y-2 text-sm">
             <div className="flex justify-between py-2 border-b">
@@ -85,9 +85,9 @@ const DetailPage = ({ navigate, post }) => {
               <input 
                 type="text" 
                 placeholder="댓글을 입력하세요"
-                className="flex-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="flex-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:text-buttonBlue"
               />
-              <button className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
+              <button className="px-4 py-2 bg-buttonBlue text-white rounded-lg hover:bg-buttonBlue/80">
                 등록
               </button>
             </div>

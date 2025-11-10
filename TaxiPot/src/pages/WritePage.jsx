@@ -27,7 +27,7 @@ const WritePage = ({ navigate }) => {
   return (
     <div className="min-h-screen bg-white pb-20">
       <Header 
-        title="역속 게시"
+        title="약속 생성"
         leftButton={{ 
           icon: <X className="w-6 h-6" />, 
           onClick: () => navigate('posts') 

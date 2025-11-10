@@ -4,7 +4,7 @@ const PostCard = ({ post, onClick }) => {
   return (
     <div 
       onClick={onClick}
-      className="bg-white p-4 rounded-lg shadow hover:shadow-md transition-shadow cursor-pointer"
+      className="bg-white p-4 rounded-2xl shadow hover:shadow-md transition-shadow cursor-pointer"
     >
       <div className="flex items-start gap-3">
         <div className="w-12 h-12 bg-gray-300 rounded-full flex-shrink-0"></div>
