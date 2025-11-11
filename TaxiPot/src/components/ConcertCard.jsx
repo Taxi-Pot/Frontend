@@ -11,6 +11,7 @@ const ConcertCard = ({ concert, onClick }) => {
         src={concert.image} 
         alt={concert.title} 
         className="w-full h-48 object-cover"
+        style={{ objectPosition: 'center 10%' }}
       />
       <div className="p-4 flex items-center justify-between">
         <div>

@@ -3,21 +3,21 @@ export const concerts = [
     id: 1,
     title: '2025 MMA',
     subtitle: 'THE 17th MELON MUSIC AWARDS',
-    image: 'https://via.placeholder.com/400x200/FF1493/FFFFFF?text=MMA+2025',
+    image: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA3MTBfOTYg%2FMDAxNzUyMTA4MDA3MjU4.7hlYR6Ta_98MRRsCWlxf6HjEkg5CCCvzQ2-Ww_Garf8g.6Tl8LiFQ39-SVuL0xVC4EfoPVh-SjL940v_2_oCUntMg.JPEG%2F900%25A3%25DF1752108000037.jpg&type=sc960_832',
     date: '2025.12.20'
   },
   {
     id: 2,
     title: '2025 가요대전',
     subtitle: '2025.12.20',
-    image: 'https://via.placeholder.com/400x200/FFD700/000000?text=가요대전',
+    image: 'https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2025/11/10/bbdb3e0c-528b-4317-98a4-271f09dc5a76.jpg',
     date: '2025.12.20'
   },
   {
     id: 3,
     title: '2025 가요대전',
     subtitle: '2025.12.20',
-    image: 'https://via.placeholder.com/400x200/FFD700/000000?text=가요대전',
+    image: 'https://ticketimage.interpark.com/Play/image/large/25/25012030_p.gif',
     date: '2025.12.20'
   }
 ];

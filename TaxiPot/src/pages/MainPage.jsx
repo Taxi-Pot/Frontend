@@ -2,11 +2,16 @@ import React from 'react';
 
 const MainPage = ({ navigate }) => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue1 via-blue2 via-blue3 to-blue4 flex flex-col items-center justify-center p-8">
+    <div className="min-h-screen bg-cover bg-center flex flex-col items-center justify-center p-8"
+    style={{ backgroundImage: "url('/background.png')" }}>
       
       {/* 화면 중앙 로고 */}
       <div className="flex-1 flex items-center justify-center">
-        <h1 className="text-6xl font-bold text-white">TaxiPot!</h1>
+        <img 
+          src="/login_page_logo.png" 
+          alt="TaxiPot 로고" 
+          className="h-24 object-contain"
+        />
       </div>
 
       {/* 버튼 위 말풍선 */}

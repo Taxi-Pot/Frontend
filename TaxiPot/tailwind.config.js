@@ -6,11 +6,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        blue1: "#B0CEEF",
-        blue2: "#BAD5F3",
-        blue3: "#D1E1F8",
-        blue4: "#E3ECFE",
-        buttonBlue: "#7FA9D7"
+        // blue1: "#B0CEEF",
+        // blue2: "#BAD5F3",
+        // blue3: "#D1E1F8",
+        // blue4: "#E3ECFE",
+        blue1: "#8ac1fd",
+        blue2: "#9e9dff",
+        blue3: "#b6d4ff",
+        blue4: "#89b1ff",
+        buttonBlue: "#89b1ff"
       },
 
       keyframes: {
