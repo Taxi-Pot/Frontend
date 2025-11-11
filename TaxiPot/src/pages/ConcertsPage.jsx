@@ -19,7 +19,7 @@ const ConcertsPage = ({ navigate }) => {
 
       {/* 현재 약속 표시 */}
       <div className="px-4 mt-4 mb-2">
-        <p className="text-gray-500 font-bold text-xl">
+        <p className="text-gray-500 font-bold text-lg">
           현재 진행 중인 콘서트  <span className="text-buttonBlue font-bold">{concerts.length}</span>
         </p>
       </div>

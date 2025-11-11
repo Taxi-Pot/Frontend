@@ -5,7 +5,7 @@ const ConcertCard = ({ concert, onClick }) => {
   return (
     <div 
       onClick={onClick}
-      className="bg-white rounded-2xl overflow-hidden shadow hover:shadow-lg transition-shadow cursor-pointer"
+      className="bg-white rounded-2xl overflow-hidden shadow hover:shadow-lg transition-shadow cursor-pointer "
     >
       <img 
         src={concert.image} 

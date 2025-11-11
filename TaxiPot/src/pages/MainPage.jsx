@@ -10,7 +10,7 @@ const MainPage = ({ navigate }) => {
         <img 
           src="/login_page_logo.png" 
           alt="TaxiPot 로고" 
-          className="h-24 object-contain"
+          className="h-20 object-contain"
         />
       </div>
 
